@@ -7,7 +7,6 @@ const ListItem = ({country, onCountryClick}) => {
         onCountryClick(country);
     }
 
-
     return(
         <>
             <li onClick={handleClick}>
